@@ -1,9 +1,7 @@
-STUDIO 54 — 1046-studio54
+STUDIO 54 - MODELO COMPLETO + MARCA 3DELTA
 
-Publicar o conteúdo desta pasta na raiz do repositório GitHub 3deltaengenharia/1046-studio54.
-Em Settings > Pages: Deploy from a branch, main, /(root).
-URL: https://3deltaengenharia.github.io/1046-studio54/
-
-IFC filtrado: somente entidades IFCBEAM, IFCCOLUMN, IFCPILE, IFCSLAB, IFCFOOTING, IFCSTAIR, IFCRAMP e dependências geométricas. Objetos genéricos IFCMEMBER foram removidos, incluindo seus dados e propriedades.
-Arquivo reduzido: modelos/studio54.ifc.gz.
-O logo no cabeçalho é uma identificação tipográfica da 3DELTA, não o arquivo oficial da marca.
+Publicar TODOS os arquivos e a pasta modelos/ na raiz do repositorio 1046-studio54.
+O modelo contem todas as geometrias do IFC ORIGINAL, incluindo IFCMEMBER, que haviam sumido na versao leve.
+IMPORTANTE: a marca em SVG e uma recriacao estilizada e NAO a logomarca oficial da empresa. Para reproduzir a logo oficial, substitua marca-3delta.svg pelo arquivo original.
+Modelo original descompactado de aproximadamente 509 MB; o processamento pode falhar em celulares com pouca memoria.
+A geometria e as propriedades do IFC original foram preservadas: esta versao corrige a perda de desenho, mas NAO removeu as propriedades de forma segura.
