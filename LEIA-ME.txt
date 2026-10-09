@@ -1,22 +1,9 @@
-STUDIO 54 — PUBLICAÇÃO NO GITHUB PAGES
+STUDIO 54 — 1046-studio54
 
-1. Crie um repositório PÚBLICO com o nome studio-54 (no perfil 3deltaengenharia).
-2. Envie para a RAIZ do repositório os 4 itens:
-   index.html
-   app.js
-   style.css
-   modelos/studio54.ifc.gz
-   (não suba o arquivo .rar nem o .ifc descompactado)
-3. Em Settings > Pages, selecione Deploy from a branch > main > /(root) > Save.
-4. URL esperada, SE o usuário for 3deltaengenharia e o repositório se chamar studio-54:
-   https://3deltaengenharia.github.io/studio-54/
-5. Para atualizar sem mudar o QR Code, substitua apenas modelos/studio54.ifc.gz
-   por outro IFC COMPACTADO COMO .GZ com o MESMO nome, e faça commit.
+Publicar o conteúdo desta pasta na raiz do repositório GitHub 3deltaengenharia/1046-studio54.
+Em Settings > Pages: Deploy from a branch, main, /(root).
+URL: https://3deltaengenharia.github.io/1046-studio54/
 
-ATENÇÃO: Modelo original tem 509 MiB; arquivo publicado .gz ~73 MiB.
-Na primeira abertura, pode consumir muita RAM e demorar / falhar em celulares.
-Este pacote foi estruturado para publicação, mas não foi validado em navegador on-line.
-Medição pressupõe que o IFC esteja em metros. Confira com distância conhecida em obra.
-Seleção, medida e cortes são experimentais e não substituem conferência em projeto executivo.
-Os cortes seguem os eixos XYZ recebidos do IFC (não os eixos da câmera).
-O endereço é público: qualquer pessoa com o link poderá acessar o arquivo.
+IFC filtrado: somente entidades IFCBEAM, IFCCOLUMN, IFCPILE, IFCSLAB, IFCFOOTING, IFCSTAIR, IFCRAMP e dependências geométricas. Objetos genéricos IFCMEMBER foram removidos, incluindo seus dados e propriedades.
+Arquivo reduzido: modelos/studio54.ifc.gz.
+O logo no cabeçalho é uma identificação tipográfica da 3DELTA, não o arquivo oficial da marca.
